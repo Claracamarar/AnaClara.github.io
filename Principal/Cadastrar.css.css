@@ -1,0 +1,63 @@
+/* Estilos para o fundo, texto e layout */
+body {
+    background-color: #f9c6d3; /* Fundo rosa claro */
+    color: white; /* Letras brancas */
+    font-family: 'Times New Roman', Times, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    color: white; /* Título em branco */
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 400px;
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 20px;
+    background-color: #ffffff; /* Fundo do formulário branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os rótulos (labels) */
+label {
+    font-size: 16px;
+    color:#f9c6d3; /* Rótulos rosa */
+}
+
+/* Estilo para os campos de entrada (input) */
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+    width: 92%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f9c6d3; /* Borda rosa */
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255); /* Fundo branco para o campo */
+    color: #f9c6d3; /* Letra rosa dentro do campo */
+    font-size: 16px;
+    position: center;
+}
+
+/* Estilo para o botão */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f9c6d3; /* Botão rosa */
+    color: white; /* Texto do botão branco */
+    border: 2px solid white; /* Bordas brancas */
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer; /* Altera o cursor para uma mão ao passar sobre o botão */
+    transition: all 0.3s ease; /* Suaviza a transição para o efeito de hover */
+}
+
+/* Efeito de hover para o botão */
+button:hover {
+    background-color: white; /* Fundo branco */
+    border: 2px solid #f9c6d3; /* Borda rosa */
+    color: #f9c6d3; /* Texto rosa */
+}
